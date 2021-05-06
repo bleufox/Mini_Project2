@@ -1,6 +1,5 @@
 *   {
     box-sizing: border-box;
-    margin:5px;
 }
 
 body    {
@@ -54,7 +53,7 @@ pre {
 .snippet {
     background-color: #455855;
     border-style: dashed;
-    border-color: #DDAF94;
+    border-color: #FDF8F5;
     border-radius: 2px;
     padding: 5px;
     margin: 15pt 7pt;
