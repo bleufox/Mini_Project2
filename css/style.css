@@ -1,0 +1,99 @@
+*   {
+    box-sizing: border-box;
+    margin:5px;
+}
+
+body    {
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+html    {
+    background-color: #455855;
+    font-family:arial;
+}
+
+header  {
+    color: #FDF8F5;
+    padding-top: 25pt;
+    text-align: center;
+    font-size: 24pt;
+    font-weight: 550;
+}
+
+h2  {
+    align-items: center;
+    margin-top: -20pt;
+    background-color: #455855;
+    border-style: solid;
+    border-color: #FDF8F5;
+    border-radius: 5px;
+    padding: 2pt 7pt;
+    color: #fdf8f5;
+}
+
+p   {
+    color: #fdf8f5;
+    font-size: 10pt;
+    padding: 5pt;
+    line-height: 15pt;
+}
+
+pre {
+    margin-bottom: 10px;
+    overflow: auto;
+    padding: 5px;
+    width: auto;
+    max-height: 500px;
+}
+
+.cards  {
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.snippet {
+    background-color: #455855;
+    border-style: dashed;
+    border-color: #dddad4;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 15pt 7pt;
+    flex: 1 1 400px;
+  }
+
+.peachfont  {
+    color: #edd2c4;
+    padding: 15px;
+    text-align: center;
+}
+
+.snippet pre    {
+    color: #383838;
+    border-radius: 7px;
+    padding: 15px 15px;
+    font-size: 105%;
+    background: linear-gradient(180deg, #ddaf94, #edd2c4);
+    white-space: pre-wrap;
+    user-select: all;
+}
+
+.snippet h2 {
+    border-radius: 8px;
+    transition: all 0s ease-in-out;
+        }
+    
+.snippet:hover,
+.snippet:hover h2  {
+    box-shadow: inset 0px 0px 8px
+    #c7d6d2, 0 0 15px
+    #84b3a5;
+    }
+            
+  @media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
