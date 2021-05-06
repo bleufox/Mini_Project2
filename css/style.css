@@ -89,15 +89,13 @@ pre {
     }
             
   @media screen and (max-width: 768px) {
-    main,
-    nav {
+    section {
       flex-direction: column;
     }
   }
 
   @media screen and (max-width: 575px) {
-      main,
-      nav {
+      section {
       flex-direction: column;
     }
   }
