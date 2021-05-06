@@ -96,3 +96,9 @@ pre {
       flex-direction: column;
     }
   }
+
+  @media screen and (max-width: 575px)
+    nav {
+      flex-direction: column;
+    }
+  }
