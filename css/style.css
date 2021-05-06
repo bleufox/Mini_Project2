@@ -57,7 +57,7 @@ pre {
     border-style: dashed;
     border-color: #DDAF94;
     border-radius: 2px;
-    padding: 10px;
+    padding: 5px;
     margin: 15pt 7pt;
     flex: 1 1 400px;
   }
@@ -97,8 +97,9 @@ pre {
     }
   }
 
-  @media screen and (max-width: 575px)
-    nav {
+  @media screen and (max-width: 575px) {
+      main,
+      nav {
       flex-direction: column;
     }
   }
