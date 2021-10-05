@@ -23,13 +23,13 @@ This HTML project compiles my most used CSS code snippets in a single location. 
 ```
 
 ## Technologies Used
-* Javascript
+* HTML, CSS
 
 ## Screenshot
 ![Homepage](images/CSS-homepage.png)
 
 ## Repository
-* GitHub Repo: https://github.com/bleufox/BleusReadmeGenerator
+* GitHub Repo: https://github.com/bleufox/Mini_Project2
 
 ## Creator
 Ashley Jones, Full Stack Developer Student
